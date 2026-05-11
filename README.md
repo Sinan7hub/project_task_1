@@ -52,3 +52,5 @@ GET /greeting
 
 /greeting?name=Sinan
 
+
+<img width="949" height="599" alt="image" src="https://github.com/user-attachments/assets/49f2a8ee-4233-406c-a71a-29d2b5a2e4b2" />
