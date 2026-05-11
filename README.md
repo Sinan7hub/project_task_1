@@ -1,53 +1,54 @@
 # First Spring Boot Application
 
-A Spring Boot project built with Java and Thymeleaf templating engine.
+A Spring Boot project built with Java and Thymeleaf templating engine. This project demonstrates basic Spring MVC concepts with simple endpoints and dynamic HTML rendering.
+
 
 ## Tech Stack
 
-- **Java 17**
-- **Spring Boot 4.0.5**
-- **Thymeleaf** - Server-side templating
-- **Spring MVC** - Web framework
-- **Lombok** - Reduce boilerplate code
-- **Maven** - Build management
+- Java 17
+- Spring Boot 4.0.5
+- Spring MVC
+- Thymeleaf (Server-side templating engine)
+- Lombok
+- Maven
 
-## Project Structure
 
-```
-src/
-├── main/
-│   ├── java/        # Java source code
-│   └── resources/   # Application properties and templates
-└── test/            # Test files
-```
-
-## Building & Running
-
-### Prerequisites
-- Java 17 or higher
-- Maven (or use the included `mvnw` wrapper)
-
-### Build
-```bash
-./mvnw clean package
-```
-
-### Run
-```bash
-./mvnw spring-boot:run
-```
-
-## Dependencies
-
-- **spring-boot-starter-thymeleaf** - Template engine for dynamic web pages
-- **spring-boot-starter-webmvc** - Spring MVC web framework
-- **lombok** - Code generation for getter/setter and other boilerplate
-- **Testing dependencies** - JUnit 5 and Spring Test
-
-## License
-
-Not specified
 
 ---
 
-*Last Updated: 2026-05-11*
+## 🌐 Endpoints
+
+### 1. Home Endpoint
+
+```
+
+GET /
+
+```
+
+Returns a simple text response:
+
+```
+
+Hello Vistula, in my first Spring Boot controller
+
+```
+
+---
+
+### 2. Greeting Endpoint (Thymeleaf View)
+
+```
+
+GET /greeting
+
+```
+
+#### Query Parameters:
+- `name` (optional, default: "World")
+
+#### Example:
+```
+
+/greeting?name=Sinan
+
