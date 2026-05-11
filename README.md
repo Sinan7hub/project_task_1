@@ -52,5 +52,7 @@ GET /greeting
 
 /greeting?name=Sinan
 
+```
+<img width="956" height="569" alt="image" src="https://github.com/user-attachments/assets/d4cc56a4-0ad4-4b6d-a9c6-ec3b61eb79db" />
 
-<img width="949" height="599" alt="image" src="https://github.com/user-attachments/assets/49f2a8ee-4233-406c-a71a-29d2b5a2e4b2" />
+
